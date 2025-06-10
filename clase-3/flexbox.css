@@ -1,0 +1,42 @@
+  * {
+    box-sizing: border-box;
+   }
+     .container {
+        
+        display: grid;
+        grid-template-columns: 20% 60% 20% ;
+        grid-template-rows: 100%;
+        background-color: red;
+     }
+     section {
+       
+        padding: 5px; 
+        background-color: yellow;
+     }
+     .left { 
+        margin-bottom: 10px;
+
+     }
+     .center {
+          margin-bottom: 10px;
+
+     }
+     .right{
+
+             margin-bottom: 10px;
+     }
+     nav {
+        background: lightblue;
+        padding: 10px; 
+        text-align: center;
+        margin-bottom: 10px;
+     }
+     footer {
+        background-color: greenyellow;
+        padding: 10px; 
+        text-align: center;
+         margin-bottom: 10px;
+     }
+     main {
+        background-color: rebeccapurple;
+     }
